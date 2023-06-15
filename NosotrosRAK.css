@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* 
+font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif; 
+*/
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {    
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+.acerca {
+    padding: 90px 0;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    
+}
+
+.acerca-txt {
+    text-align: left;
+    width: 100%;
+    
+}
+
+.acerca-txt h2 {
+    font-size: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #0a1a2a;
+    margin-bottom: 15px;
+    
+}
+
+.acerca-txt p {
+    color: #0a1a2a;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+
+.mision-1 {
+    display: flex;
+   }
+   
+   .mision{
+      
+       padding: 15px;
+       text-align: left;  
+       width: 50%;  
+   }
+
+   .mision-img {
+    padding-top: 25px;
+    margin-bottom: 70px;
+    justify-content: left;
+       
+}
+
+.mision-img{
+    width: 50%;
+    padding-left: 250px;
+    margin-bottom: 80px;
+}
+
+
+.mision-img {
+    padding-top: 55px;
+    margin-bottom: 50px;
+    justify-content: left;
+       
+}
+
+.mision-img img{
+    width: 150px;
+    text-align: left;  
+   
+}
+
+.somos h4{
+       font-size: 35px;
+       font-family: 'Be Vietnam Pro', sans-serif;
+       color: #0a1a2a;
+       margin-bottom: 15px;
+       text-align: left;
+   }
+   
+.somos p {
+       color: #0a1a2a;
+       margin-bottom: 30px;
+       font-size: 16px;
+       text-align: left;
+}
+   
+.vision-1 {
+    display: flex;
+   }
+   
+   .vision{
+      
+       padding: 15px;
+       text-align: left;  
+       width: 50%;  
+   }
+
+   .vision-img {
+    padding-top: 25px;
+    margin-bottom: 70px;
+    justify-content: left;
+       
+}
+
+.vision-img{
+    width: 50%;
+    padding-left: 250px;
+    margin-bottom: 80px;
+}
+
+
+.vision-img {
+    padding-top: 55px;
+    margin-bottom: 50px;
+    justify-content: left;
+       
+}
+
+.vision-img img{
+    width: 150px;
+    text-align: left;  
+   
+}
+
+.somos1 h4{
+       font-size: 35px;
+       font-family: 'Be Vietnam Pro', sans-serif;
+       color: #0a1a2a;
+       margin-bottom: 15px;
+       text-align: left;
+   }
+   
+.somos1 p {
+       color: #0a1a2a;
+       margin-bottom: 30px;
+       font-size: 16px;
+       text-align: left;
+}
+
+
+.objetivos-1 {
+    display: flex;
+   }
+   
+   .objetivos{
+      
+       padding: 15px;
+       text-align: left;  
+       width: 50%;  
+   }
+
+   .objetivos-img {
+    padding-top: 25px;
+    margin-bottom: 70px;
+    justify-content: left;
+       
+}
+
+.objetivos-img{
+    width: 50%;
+    padding-left: 250px;
+    margin-bottom: 80px;
+}
+
+
+.objetivos-img {
+    padding-top: 65px;
+    margin-bottom: 50px;
+    justify-content: left;
+       
+}
+
+.objetivos-img img{
+    width: 200px;
+    text-align: left;  
+   
+}
+
+.somos2 h4{
+       font-size: 35px;
+       font-family: 'Be Vietnam Pro', sans-serif;
+       color: #0a1a2a;
+       margin-bottom: 35px;
+       text-align: left;
+   }
+   
+.somos2 p {
+       color: #0a1a2a;
+       margin-bottom: 30px;
+       font-size: 16px;
+       text-align: left;
+    }
+
+
+
+
+
+.slider-frame {
+    width: 800px;
+    height: auto;
+    margin:10px auto 0;
+    overflow: hidden;
+    
+   }
+   
+   .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 20s infinite alternate ease-in-out;
+   }
+   
+   .slider-frame li {
+    width: 100%;
+    list-style: none;
+   }
+   
+   .slider-frame img {
+    width: 100%;
+    margin-bottom: 60px;
+    
+   }
+   
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+   
+
+
+
+
+@media(max-width:1135px ) {
+    .acerca{
+       padding: 30px;
+   }
+   .acerca-txt h2 {
+       font-size: 25px;
+       text-align: center;
+       margin-bottom: 30px;
+   }
+
+   .somos{
+    padding: 10px;
+   }
+    .mision-1{
+    flex-direction: column;
+    text-align: center;
+    }
+    .mision{
+    width: 100%;
+    margin-bottom: 30px;
+    }
+
+    .somos h4{    
+    font-size: 25px;
+    color: #2D2C32;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+    .mision-img{
+    width: -10px;
+    flex-direction: column;
+    padding-top: 5px; 
+    width: 100%;
+    padding-left: 0;
+      
+    
+    }     
+    .mision-img img{
+    width: 150px;
+    margin-bottom: 10px;
+    
+    }
+
+    somos1{
+        padding: 10px;
+       }
+        .vision-1{
+        flex-direction: column-reverse;
+        text-align: center;
+        }
+        .vision{
+        width: 100%;
+        margin-bottom: 30px;
+        }
+    
+        .somos1 h4{    
+        font-size: 25px;
+        color: #2D2C32;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin-bottom: 30px;
+        text-align: center;
+        }
+        .vision-img{
+        width: -10px;
+        flex-direction: column-reverse;
+        padding-top: 5px; 
+        width: 100%;
+        padding-left: 0;
+          
+        
+        }     
+        .vision-img img{
+        width: 150px;
+        margin-bottom: 10px;
+        
+   }
+    
+   .somos2{
+    padding: 10px;
+   }
+    .objetivos-1{
+    flex-direction: column;
+    text-align: center;
+    }
+    .objetivos{
+    width: 100%;
+    margin-bottom: 30px;
+    }
+
+    .objetivos-1 h4{    
+    font-size: 20px;
+    color: #2D2C32;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+    .objetivos-img{
+    width: -10px;
+    flex-direction: column;
+    padding-top: 5px; 
+    width: 100%;
+    padding-left: 0;
+      
+    
+    }     
+    .objetivos-img img{
+    width: 150px;
+    margin-bottom: 10px;
+    
+    }
+
+    
+    
+
+    
+
+
+    .slider-frame {
+        width: 230px;
+        height: auto;
+        margin: 10px auto 0;
+        overflow: hidden;
+    } 
+
+
+     
+
+}
+
+
